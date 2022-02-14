@@ -174,7 +174,7 @@ header {
   padding-top: 63px;
   background-image: url(https://www.apple.com/es/home/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin-top: 10px;
 }
 .hero3 h2 {
@@ -197,28 +197,28 @@ header {
   flex-wrap: wrap;
 }
 .smallbox {
-  margin: 15px;
+  margin: 15px 7.5px 7.5px 15px;
   height: 624px;
   flex-grow: 1;
   min-width: 350px;
 }
-.smallerbox1 {
-  margin: 15px;
-  height: 624px;
+.hero4 {
+  margin: 15px 7.5px 7.5px 15px;
+  height: 580px;
+  min-width: 47.5%;
   flex-grow: 1;
   flex-basis: 0;
-  min-width: 350px;
-  background-image: url(img/tile_watch__e9n11b6m6yq2_medium.jpg);
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg);
   background-size: cover;
   background-position: center;
 }
-.smallerbox2 {
-  margin: 15px;
-  height: 624px;
+.hero5 {
+  margin: 15px 15px 7.5px 7.5px;
+  height: 580px;
+  min-width: 47.5%;
   flex-grow: 1;
   flex-basis: 0;
-  min-width: 350px;
-  background-image: url(img/tile_watch__e9n11b6m6yq2_medium.jpg);
+  background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg);
   background-size: cover;
   background-position: center;
 }
