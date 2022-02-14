@@ -150,19 +150,43 @@ header {
 }
 
 .hero2 {
-  height: 580px;
+  height: 500px;
   text-align: center;
   padding-top: 63px;
-  background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
+  background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 10px;
 }
-.h2 {
-  font-size: 56px;
+.hero2 h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f5f5f7;
 }
-.h3 {
+.hero2 h3 {
   font-size: 28px;
+  color: #fec2eb;
+}
+.hero3 {
+  height: 500px;
+  text-align: center;
+  padding-top: 63px;
+  background-image: url(https://www.apple.com/es/home/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+.hero3 h2 {
+  margin-top: 21px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #602d62;
+}
+.hero3 h3 {
+  font-size: 48px;
+  color: #602d62;
 }
 .link {
   text-decoration: none;
