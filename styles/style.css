@@ -7,6 +7,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+span {
+  font-size: 12px;
+  color: #bf4800;
+  margin-top: 31px;
+}
 header {
   margin-bottom: 10px;
 }
@@ -172,7 +177,7 @@ header {
   height: 500px;
   text-align: center;
   padding-top: 63px;
-  background-image: url(https://www.apple.com/es/home/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg);
+  background-image: url(https://www.apple.com/v/home/aj/images/heroes/tv-plus-oscar-nominations/hero_ttom__d8cc7msuzey6_large.jpg);
   background-size: cover;
   background-position: top;
   margin-top: 10px;
@@ -205,6 +210,7 @@ header {
 .hero4 {
   margin: 15px 7.5px 7.5px 15px;
   height: 580px;
+  text-align: center;
   min-width: 47.5%;
   flex-grow: 1;
   flex-basis: 0;
@@ -215,10 +221,55 @@ header {
 .hero5 {
   margin: 15px 15px 7.5px 7.5px;
   height: 580px;
+  text-align: center;
   min-width: 47.5%;
   flex-grow: 1;
   flex-basis: 0;
-  background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg);
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero6 {
+  margin: 7.5px 7.5px 7.5px 15px;
+  height: 580px;
+  text-align: center;
+  min-width: 47.5%;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-image: url(https://www.apple.com/es/home/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero7 {
+  margin: 7.5px 15px 7.5px 7.5px;
+  height: 580px;
+  text-align: center;
+  min-width: 47.5%;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_large.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero8 {
+  margin: 7.5px 7.5px 15px 15px;
+  height: 580px;
+  text-align: center;
+  min-width: 47.5%;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_large.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hero9 {
+  margin: 15px 15px 15px 7.5px;
+  height: 580px;
+  text-align: center;
+  min-width: 47.5%;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/airpods/tile_airpods__fuv6vgn42y2q_large.jpg);
   background-size: cover;
   background-position: center;
 }
