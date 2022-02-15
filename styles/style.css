@@ -1,17 +1,45 @@
-@media only screen and (max-width: 833px) #navbar .container {
-  display: block;
+@media only screen and (min-width: 832px) .navbar-menu .container {
+  display: hidden;
+}
+@media only screen and (max-width: 833px) .topnav {
+  display: hidden;
 }
 * {
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-span {
-  font-size: 12px;
-  color: #bf4800;
-  margin-top: 31px;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #1d1d1f;
+  color: white;
+}
+
 header {
   margin-bottom: 10px;
 }
@@ -182,24 +210,36 @@ header {
   background-position: top;
   margin-top: 10px;
 }
+.hero3 span {
+  font-size: 22px;
+  color: #f5f5f7;
+}
 .hero3 h2 {
-  margin-top: 21px;
+  margin-top: 300px;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #602d62;
+  color: #f5f5f7;
 }
 .hero3 h3 {
-  font-size: 48px;
-  color: #602d62;
+  font-size: 28px;
+  color: #f5f5f7;
 }
 .link {
   text-decoration: none;
   color: #06c;
 }
+.videolink {
+  text-decoration: none;
+}
 .multibox {
   display: flex;
   flex-wrap: wrap;
+}
+.multibox span {
+  font-size: 12px;
+  color: #bf4800;
+  margin-top: 31px;
 }
 .smallbox {
   margin: 15px 7.5px 7.5px 15px;
